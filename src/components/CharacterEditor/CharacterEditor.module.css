@@ -5,6 +5,7 @@
 
 .maxWidthWrapper {
   padding: 0 32px;
+  isolation: isolate;
 }
 
 .header {
