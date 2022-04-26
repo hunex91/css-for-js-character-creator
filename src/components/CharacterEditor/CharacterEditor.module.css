@@ -29,9 +29,9 @@
 
 .characterWrapper {
   position: fixed;
+  top: 10%;
   bottom: 10%;
-  right: 0;
-  height: 80%;
+  left: 60%;
   min-height: 500px;
   overflow: hidden;
 }
@@ -46,6 +46,11 @@
 @media only screen and (max-width: 670px) {
   .characterEditor {
     padding-top: 64px;
+  }
+
+  .characterWrapper {
+    left: initial;
+    right: -20%;
   }
 
   .controlColumn {
