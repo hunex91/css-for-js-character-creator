@@ -4,8 +4,9 @@
 }
 
 .maxWidthWrapper {
-  isolation: isolate;
+  position: relative;
   overflow-x: auto;
+  isolation: isolate;
 }
 
 .header {
@@ -43,6 +44,10 @@
 }
 
 @media only screen and (max-width: 670px) {
+  .characterEditor {
+    padding-top: 64px;
+  }
+
   .controlColumn {
     flex-direction: row;
     width: initial;
