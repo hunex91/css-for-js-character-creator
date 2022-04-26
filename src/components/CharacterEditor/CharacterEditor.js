@@ -30,7 +30,7 @@ function App() {
   );
 
   return (
-    <main className={`${styles.characterEditor} fullscreen`}>
+    <main className={`${styles.characterEditor}`}>
       <Background />
 
       <div className={styles.characterWrapper}>
